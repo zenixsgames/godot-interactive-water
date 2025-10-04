@@ -1,0 +1,13 @@
+[gd_scene load_steps=2 format=3 uid="uid://dv7kwwtbw3vjr"]
+
+[ext_resource type="Script" uid="uid://757qq1tj6c8w" path="res://scenes/water.gd" id="1_bdk6y"]
+
+[node name="water" type="Node2D"]
+script = ExtResource("1_bdk6y")
+
+[node name="Line2D" type="Line2D" parent="."]
+width = 4.0
+default_color = Color(0.05882353, 0.42352942, 1, 0.83137256)
+
+[node name="Polygon2D" type="Polygon2D" parent="."]
+color = Color(0.05882353, 0.42352942, 1, 0.83137256)
